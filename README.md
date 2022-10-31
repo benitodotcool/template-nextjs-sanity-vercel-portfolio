@@ -1,14 +1,15 @@
-# A Next.js Blog with a Native Authoring Experience
+# A Next.js Portfolio featuring Sanity.io and Vercel
+<!-- # A Next.js Blog with a Native Authoring Experience -->
 
-This starter is a statically generated blog that uses [Next.js][nextjs] for the frontend and [Sanity][sanity-homepage] to handle its content. It comes with a native Sanity Studio that offers features like real-time collaboration, instant side-by-side content previews, and intuitive editing.
+This starter is a statically generated portfolio that uses [Next.js][nextjs] for the frontend and [Sanity][sanity-homepage] to handle its content. It comes with a native Sanity Studio that offers features like real-time collaboration, instant side-by-side content previews, and intuitive editing.
 
-The Studio connects to Sanity Content Lake, which gives you hosted content APIs with a flexible query language, on-demand image transformations, powerful patching, and more. You can use this starter to kick-start a blog or learn these technologies.
+<!-- The Studio connects to Sanity Content Lake, which gives you hosted content APIs with a flexible query language, on-demand image transformations, powerful patching, and more. You can use this starter to kick-start a blog or learn these technologies. -->
 
-[![Deploy with Vercel](https://vercel.com/button)][vercel-deploy]
+<!-- [![Deploy with Vercel](https://vercel.com/button)][vercel-deploy] -->
 
 ## Features
 
-- A performant, static blog with editable posts, authors, and site settings
+- A performant, static portfolio with editable works, categories, site settings, etc.
 - A native and customizable authoring environment, accessible on `yourblog.com/studio`
 - Real-time and collaborative content editing with fine-grained revision history
 - Side-by-side instant content preview that works across your whole site
@@ -17,7 +18,7 @@ The Studio connects to Sanity Content Lake, which gives you hosted content APIs 
 - Free and boosted Sanity project with unlimited admin users, free content updates, and pay-as-you-go for API overages
 - A project with starter-friendly and not too heavy-handed TypeScript and Tailwind.css
 
-## Table of Contents
+<!-- ## Table of Contents
 
 - [Features](#features)
 - [Table of Contents](#table-of-contents)
@@ -32,15 +33,15 @@ The Studio connects to Sanity Content Lake, which gives you hosted content APIs 
   - [It doesn't work! Where can I get help?](#it-doesnt-work-where-can-i-get-help)
   - [How can I remove the "Next steps" block from my blog?](#how-can-i-remove-the-next-steps-block-from-my-blog)
   - [How can I set up Incremental Static Revalidation?](#how-can-i-set-up-incremental-static-revalidation)
-- [Next steps](#next-steps)
+- [Next steps](#next-steps) -->
 
-## Project Overview
+<!-- ## Project Overview -->
 
-| [Blog](https://nextjs-blog.sanity.build)                                                                       | [Studio](https://nextjs-blog.sanity.build/studio)                                                                       |
+<!-- | [Blog](https://nextjs-blog.sanity.build)                                                                       | [Studio](https://nextjs-blog.sanity.build/studio)                                                                       |
 | -------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| ![Blog](https://user-images.githubusercontent.com/44635000/197511913-94ea36dd-099d-4dbf-b71f-3335879621c9.png) | ![Sanity Studio](https://user-images.githubusercontent.com/44635000/197511725-b2a2e2e5-287b-41a9-84c6-ec90d37ca480.png) |
+| ![Blog](https://user-images.githubusercontent.com/44635000/197511913-94ea36dd-099d-4dbf-b71f-3335879621c9.png) | ![Sanity Studio](https://user-images.githubusercontent.com/44635000/197511725-b2a2e2e5-287b-41a9-84c6-ec90d37ca480.png) | -->
 
-### Important files and folders
+<!-- ### Important files and folders
 
 | File(s)                                     | Description                                      |
 | ------------------------------------------- | ------------------------------------------------ |
@@ -50,7 +51,7 @@ The Studio connects to Sanity Content Lake, which gives you hosted content APIs 
 | `/pages/api/revalidate.tsx`                 |  Serverless route for triggering ISR             |
 | `/pages/api/preview.tsx`                    |  Serverless route for triggering Preview mode    |
 | `/schemas`                                  |  Where Sanity Studio gets its content types from |
-| `/lib/sanity.server.tsx`, `/lib/config.tsx` | Configuration for the Sanity Content Lake client |
+| `/lib/sanity.server.tsx`, `/lib/config.tsx` | Configuration for the Sanity Content Lake client | -->
 
 ## Configuration
 
@@ -100,7 +101,7 @@ Alternatively, you can deploy without a `git` hosting provider using the Vercel 
 npx vercel --prod
 ```
 
-## Questions and Answers
+<!-- ## Questions and Answers
 
 ### It doesn't work! Where can I get help?
 
@@ -123,7 +124,13 @@ Go to the serverless function code in `/pages/api/revalidate.ts`. In the code co
 - [Join our Slack community to ask questions and get help][sanity-community]
 - [How to edit my content structure?][sanity-schema-types]
 - [How to query content?][sanity-groq]
-- [What is content modelling?][sanity-content-modelling]
+- [What is content modelling?][sanity-content-modelling] -->
+
+***
+
+This repo is an upgraded version of the official Sanity starter [nextjs-blog-cms-sanity-v3](original-repo).
+For any more informations, go to the orignal [repository](original-repo).
+License: [@sanity](original-repo).
 
 [vercel-deploy]: https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fbenitodotcool%2Ftemplate-nextjs-sanity-vercel-portfolio&repository-name=template-nextjs-sanity-vercel-portfolio&project-name=template-nextjs-sanity-vercel-portfolio&demo-title=Blog%20with%20Built-in%20Content%20Editing&demo-description=A%20Sanity-powered%20blog%20with%20built-in%20content%20editing%20%26%20instant%20previews&demo-url=https%3A%2F%2Fnextjs-blog.sanity.build%2F%3Futm_source%3Dvercel%26utm_medium%3Dreferral&demo-image=https%3A%2F%2Fuser-images.githubusercontent.com%2F81981%2F197501516-c7c8092d-0305-4abe-afb7-1e896ef7b90a.png&integration-ids=oac_hb2LITYajhRQ0i4QznmKH7gx&external-id=nextjs;template=template-nextjs-sanity-vercel-portfolio
 <!-- [vercel-deploy]: https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fsanity-io%2Fnextjs-blog-cms-sanity-v3&repository-name=blog-nextjs-sanity&project-name=blog-nextjs-sanity&demo-title=Blog%20with%20Built-in%20Content%20Editing&demo-description=A%20Sanity-powered%20blog%20with%20built-in%20content%20editing%20%26%20instant%20previews&demo-url=https%3A%2F%2Fnextjs-blog.sanity.build%2F%3Futm_source%3Dvercel%26utm_medium%3Dreferral&demo-image=https%3A%2F%2Fuser-images.githubusercontent.com%2F81981%2F197501516-c7c8092d-0305-4abe-afb7-1e896ef7b90a.png&integration-ids=oac_hb2LITYajhRQ0i4QznmKH7gx&external-id=nextjs;template=nextjs-blog-cms-sanity-v3 -->
@@ -144,3 +151,4 @@ Go to the serverless function code in `/pages/api/revalidate.ts`. In the code co
 [vercel-isr]: https://nextjs.org/blog/next-12-1#on-demand-incremental-static-regeneration-beta
 [vercel]: https://vercel.com
 [vercel-github]: https://github.com/vercel/next.js/discussions
+[original-repo]: https://github.com/sanity-io/nextjs-blog-cms-sanity-v3
