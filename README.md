@@ -7,7 +7,7 @@ This starter is a statically generated portfolio that uses [Next.js][nextjs] for
 
 <!-- [![Deploy with Vercel](https://vercel.com/button)][vercel-deploy] -->
 
-This repo is an upgraded version of the official Sanity starter [nextjs-blog-cms-sanity-v3](original-repo).
+This repo is an upgraded version of the official Sanity starter [nextjs-blog-cms-sanity-v3](original-repo).  
 For any more informations, go to the orignal [repository](original-repo).
 
 ## Features
@@ -131,8 +131,8 @@ Go to the serverless function code in `/pages/api/revalidate.ts`. In the code co
 
 ## Credits & license
 
-This repo is an upgraded version of the official Sanity starter [nextjs-blog-cms-sanity-v3](original-repo).
-For any more informations, go to the orignal [repository](original-repo).
+This repo is an upgraded version of the official Sanity starter [nextjs-blog-cms-sanity-v3](original-repo).  
+For any more informations, go to the orignal [repository](original-repo).  
 License: [@sanity](original-repo).
 
 [vercel-deploy]: https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fbenitodotcool%2Ftemplate-nextjs-sanity-vercel-portfolio&repository-name=template-nextjs-sanity-vercel-portfolio&project-name=template-nextjs-sanity-vercel-portfolio&demo-title=Blog%20with%20Built-in%20Content%20Editing&demo-description=A%20Sanity-powered%20blog%20with%20built-in%20content%20editing%20%26%20instant%20previews&demo-url=https%3A%2F%2Fnextjs-blog.sanity.build%2F%3Futm_source%3Dvercel%26utm_medium%3Dreferral&demo-image=https%3A%2F%2Fuser-images.githubusercontent.com%2F81981%2F197501516-c7c8092d-0305-4abe-afb7-1e896ef7b90a.png&integration-ids=oac_hb2LITYajhRQ0i4QznmKH7gx&external-id=nextjs;template=template-nextjs-sanity-vercel-portfolio
