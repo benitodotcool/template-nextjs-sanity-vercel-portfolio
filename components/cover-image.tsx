@@ -1,6 +1,7 @@
-import cn from 'classnames'
+import cn from 'classnames' /////// REMOVE
 import Image from 'next/image'
 import Link from 'next/link'
+import clsx from 'clsx'
 
 import { urlForImage } from '../lib/sanity'
 
@@ -15,7 +16,7 @@ export default function CoverImage(props: CoverImageProps) {
   const { title, slug, image: source, priority } = props
   const image = source?.asset?._ref ? (
     <div
-      className={cn('shadow-small', {
+      className={cn('shadow-small qsdqsdsqfsqfsdfdsfsdfsd', {
         'transition-shadow duration-200 hover:shadow-medium': slug,
       })}
     >
