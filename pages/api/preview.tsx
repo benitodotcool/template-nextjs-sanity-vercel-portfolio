@@ -1,15 +1,13 @@
-import { postBySlugQuery } from '../../lib/queries'
-import { getClient } from '../../lib/sanity.server'
+import {postBySlugQuery} from '../../lib/queries'
+import {getClient} from '../../lib/sanity.server'
 
-function redirectToPreview(res, Location) {
-  // Enable Preview Mode by setting the cookies
+function redirectToPreview(res: any, Location: any) {
   res.setPreviewData({})
-  // Redirect to a preview capable route
-  res.writeHead(307, { Location })
+  res.writeHead(307, {Location})
   res.end()
 }
 
-export default async function preview(req, res) {
+export default async function preview(req: any, res: any) {
   const secret = process.env.NEXT_PUBLIC_PREVIEW_SECRET
   // Check the secret if it's provided, enables running preview mode locally before the env var is setup
   if (secret && req.query.secret !== secret) {

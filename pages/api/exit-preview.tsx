@@ -1,8 +1,5 @@
-export default async function exit(_, res) {
-  // Exit the current user from "Preview Mode". This function accepts no args.
+export default async function exit(_: any, res: any) {
   res.clearPreviewData()
-
-  // Redirect the user back to the index page.
-  res.writeHead(307, { Location: '/' })
+  res.writeHead(307, {Location: '/'})
   res.end()
 }

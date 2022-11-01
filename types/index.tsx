@@ -1,9 +1,9 @@
-export interface AuthorProps {
+export type AuthorProps = {
   name: string
   picture: any
 }
 
-export interface PostProps {
+export type PostProps = {
   title: string
   coverImage: any
   date: string
