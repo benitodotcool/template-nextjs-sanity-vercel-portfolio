@@ -1,5 +1,5 @@
-import { BookIcon } from '@sanity/icons'
-import { defineType } from 'sanity'
+import {defineType} from 'sanity'
+import {BookIcon} from '@sanity/icons'
 import authorType from './author'
 
 export default defineType({

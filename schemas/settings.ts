@@ -1,5 +1,5 @@
-import { CogIcon } from '@sanity/icons'
-import { defineType } from 'sanity'
+import {defineType} from 'sanity'
+import {CogIcon} from '@sanity/icons'
 
 export default defineType({
   name: 'settings',

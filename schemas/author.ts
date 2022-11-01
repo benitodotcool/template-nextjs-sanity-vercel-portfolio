@@ -1,5 +1,5 @@
-import { UserIcon } from '@sanity/icons'
-import { defineType } from 'sanity'
+import {defineType} from 'sanity'
+import {UserIcon} from '@sanity/icons'
 
 export default defineType({
   name: 'author',
